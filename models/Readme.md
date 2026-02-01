@@ -49,7 +49,7 @@ Once loaded, the model supports:
 - Reuse in scalability or ablation experiments
 
 ---
-
+```
 ## Serialization Format Notes
 
 - Python’s `pickle` module is used for serialization
@@ -66,3 +66,4 @@ structured formats such as **HDF5** would be preferable.
 - Do not manually edit `.pkl` files
 - Regenerate checkpoints by re-running the notebook if needed
 - All committed checkpoints correspond to executed notebook outputs
+
