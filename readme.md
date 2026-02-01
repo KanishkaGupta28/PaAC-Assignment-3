@@ -1,4 +1,4 @@
-# PAAC Assignment 3 – Scalable Quantum Tomography Pipelines
+# PaAC Assignment 3 – Scalable Quantum Tomography Pipelines
 
 This repository contains the complete implementation for **PAAC Assignment 3**,
 focused on building **scalable, reproducible quantum tomography pipelines** that
@@ -33,7 +33,7 @@ Key objectives:
 
 ## Repository Structure
 ```
-PAAC_Assignment_3/
+PaAC_Assignment_3/
 │
 ├── docs/
 │   └── report.md                 # Full experimental report and analysis
@@ -183,6 +183,7 @@ Detailed tables, plots, and analysis are available in:
 Developed as part of the **PAAC Open Project (Winter 2025–2026)**.
 
 This project focuses on **scalable quantum tomography**, **reproducibility**, and **empirical analysis** of how model design choices impact performance as quantum system size increases.
+
 
 
 
