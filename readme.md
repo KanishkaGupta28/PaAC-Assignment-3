@@ -32,7 +32,7 @@ Key objectives:
 ---
 
 ## Repository Structure
-
+```
 PAAC_Assignment_3/
 │
 ├── docs/
@@ -50,12 +50,12 @@ PAAC_Assignment_3/
 │
 └── README.md # Project overview (this file)
 
-
+```
 ---
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone <https://github.com/KanishkaGupta28/PaAC-Assignment-3>
 cd PAAC_Assignment_3
 
 ```
@@ -180,4 +180,5 @@ Detailed tables, plots, and analysis are available in:
 Developed as part of the **PAAC Open Project (Winter 2025–2026)**.
 
 This project focuses on **scalable quantum tomography**, **reproducibility**, and **empirical analysis** of how model design choices impact performance as quantum system size increases.
+
 
