@@ -36,19 +36,22 @@ Key objectives:
 PAAC_Assignment_3/
 │
 ├── docs/
-│ └── report.md # Full experimental report and analysis
+│   └── report.md                 # Full experimental report and analysis
 │
 ├── models/
-│ ├── README.md # Checkpoint documentation
-│ └── model_roundtrip_2.pkl # Example serialized model
+│   ├── README.md                 # Documentation for stored model files
+│   ├── quantum_model.pkl         # Final trained quantum tomography model
+│   ├── model_roundtrip_2.pkl     # Model used for serialization round-trip test
+│   
 │
 ├── notebooks/
-│ └── assignment_3_scalable_tomography.ipynb
+│   └── assignment_3_scalable_tomography.ipynb
 │
 ├── results/
-│ └── scalability_results.csv # CSV output for scalability plots
+│   └── scalability_results.csv   # CSV output used for scalability analysis
 │
-└── README.md # Project overview (this file)
+└── README.md                     # Project overview (this file)
+
 
 ```
 ---
@@ -180,5 +183,6 @@ Detailed tables, plots, and analysis are available in:
 Developed as part of the **PAAC Open Project (Winter 2025–2026)**.
 
 This project focuses on **scalable quantum tomography**, **reproducibility**, and **empirical analysis** of how model design choices impact performance as quantum system size increases.
+
 
 
