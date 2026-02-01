@@ -39,6 +39,7 @@ The stored object can be reconstructed exactly as it was at save time.
 Models can be restored using the provided helper methods:
 
 ```python
+```
 from QuantumModel import QuantumModel
 
 model = QuantumModel.load("models/model_roundtrip_2.pkl")
@@ -49,7 +50,6 @@ Once loaded, the model supports:
 - Reuse in scalability or ablation experiments
 
 ---
-```
 ## Serialization Format Notes
 
 - Python’s `pickle` module is used for serialization
@@ -66,4 +66,5 @@ structured formats such as **HDF5** would be preferable.
 - Do not manually edit `.pkl` files
 - Regenerate checkpoints by re-running the notebook if needed
 - All committed checkpoints correspond to executed notebook outputs
+
 
